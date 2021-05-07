@@ -6,7 +6,7 @@
       "valor": 15.90,
       "promocao": false,
       "valorPromo": 0,
-      "imagem": "mouse.jpg"
+      "imagem": "mouse1.jpg"
   },
   {
       "id":2,
@@ -14,7 +14,7 @@
       "valor": 30.00,
       "promocao": false,
       "valorPromo": 0,
-      "imagem": "teclado.jpg"
+      "imagem": "teclado1.jpeg"
   },
   {
       "id":3,
@@ -22,7 +22,7 @@
       "valor": 250.00,
       "promocao": false,
       "valorPromo": 0,
-      "imagem": "monitor.jpg"
+      "imagem": "monitor1.jpg"
   },
   {
       "id":4,

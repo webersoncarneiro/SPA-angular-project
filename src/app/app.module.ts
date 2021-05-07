@@ -16,6 +16,8 @@ import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.co
 import { HttpClientModule} from "@angular/common/http";
 import { registerLocaleData } from '@angular/common';
 import  localePt  from '@angular/common/locales/pt';
+//import {NgxPaginationModule} from 'ngx-pagination';
+
 registerLocaleData(localePt);
 
 @NgModule({
@@ -24,6 +26,7 @@ registerLocaleData(localePt);
     MenuComponent,
     HomeComponent,
     FooterComponent,
+    //NgxPaginationModule,
     SobreComponent,
     ContatoComponent,
     DataBindingComponent,
@@ -32,6 +35,7 @@ registerLocaleData(localePt);
   imports: [
     BrowserModule,
     FormsModule,
+   // NgxPaginationModule,
     HttpClientModule,
     [RouterModule.forRoot(rootRouterConfig, {useHash: false})]
   ],

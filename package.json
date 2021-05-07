@@ -24,6 +24,7 @@
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
     "json-server": "^0.16.3",
+    "ngx-pagination": "^5.0.0",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },
