@@ -1,4 +1,5 @@
 import { Component , OnInit} from '@angular/core';
+import { $ } from 'protractor';
 import { Produto } from '../produto';
 import { ProdutoService } from '../produtos.service';
 
