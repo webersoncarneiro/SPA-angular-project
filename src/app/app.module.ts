@@ -19,6 +19,8 @@ import { OutletComponenteComponent } from './outlet-componente/outlet-componente
 //import { CarouselComponent } from 'angular-responsive-carousel';
 //import { IvyCarouselModule } from 'angular-responsive-carousel';
 //import {NgxPaginationModule} from 'ngx-pagination';
+import { NgxPaginationModule } from 'ngx-pagination';
+
 
 registerLocaleData(localePt);
 
@@ -28,7 +30,6 @@ registerLocaleData(localePt);
     MenuComponent,
     HomeComponent,
     FooterComponent,
-    //NgxPaginationModule,
     SobreComponent,
     ContatoComponent,
     ListaProdutoComponent,
@@ -38,7 +39,7 @@ registerLocaleData(localePt);
     BrowserModule,
     FormsModule,
     //IvyCarouselModule,
-   // NgxPaginationModule,
+    NgxPaginationModule,
     HttpClientModule,
     [RouterModule.forRoot(rootRouterConfig, {useHash: false})]
   ],

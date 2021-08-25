@@ -1,1 +1,38 @@
-<h3> OI </h3>
+
+<div class="container">
+    <h2 class="text-secondary text-center">{{ title }}!</h2>
+    <hr /> 
+    <div>
+      <h4 class="text-info">Alunos</h4>
+      <div> </div>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Telefone.</th>
+            <th>Email</th>
+            <th>Sexo</th>
+            <th>País</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let a of dadosAlunos | paginate: { itemsPerPage: contador, currentPage: pag }">
+            <td>{{a.id}}</td>
+            <td>{{a.nome}}</td>
+            <td>{{a.fone}}</td>
+            <td>{{a.email}}</td>
+            <td>{{a.sexo}}</td>
+            <td>{{a.pais}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div> 
+    <!--inclindo o controle de paginação.-->
+    <div class="text-right">
+        <pagination-controls
+		(pageChange)="paginaAtual 
+		= $event" 
+		previousLabel="Anterior"
+		nextLabel="Próximo"></pagination-controls>
+  </div>

@@ -1,3 +1,7 @@
 navegacao{
     background-color: black;
 }
+
+th, td{
+    text-align: left;
+}
