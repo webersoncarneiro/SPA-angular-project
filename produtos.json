@@ -71,7 +71,87 @@
       "promocao": false,
       "valorPromo": 0,
       "imagem": "gopro.jpg"
-   }
+   },
+   {
+    "id":10,
+    "nome": "Iphone Pro Max",
+    "valor": 2000.00,
+    "promocao": false,
+    "valorPromo": 0,
+    "imagem": "iphone.jpg"
+ },
+ {
+    "id":10,
+    "nome": "Suporte para notebook",
+    "valor": 250.00,
+    "promocao": false,
+    "valorPromo": 0,
+    "imagem": "suportenotebook.jpg"
+ },
+ {
+    "id":11,
+    "nome": "Suporte para Headset",
+    "valor": 100.00,
+    "promocao": false,
+    "valorPromo": 0,
+    "imagem": "suporteheadset.jpg"
+ },
+ {
+    "id":12,
+    "nome": "Teclado mecânico com RGB",
+    "valor": 550.00,
+    "promocao": false,
+    "valorPromo": 0,
+    "imagem": "tecladorgb.jpg"
+ },
+ {
+    "id":13,
+    "nome": "SSD 240 GB",
+    "valor": 450.00,
+    "promocao": false,
+    "valorPromo": 0,
+    "imagem": "ssd.jpg"
+ },
+ {
+    "id":14,
+    "nome": "Fone de Ouvido para PC",
+    "valor": 560.00,
+    "promocao": false,
+    "valorPromo": 0,
+    "imagem": "fonepc.jpg"
+ },
+ {
+    "id":15,
+    "nome": "Cadeira Gamer",
+    "valor": 1500.00,
+    "promocao": false,
+    "valorPromo": 0,
+    "imagem": "cadeira.jpg"
+ },
+ {
+    "id":16,
+    "nome": "Luminária para computador",
+    "valor": 220.00,
+    "promocao": false,
+    "valorPromo": 0,
+    "imagem": "luminaria.jpg"
+ },
+ {
+    "id":17,
+    "nome": "Mouse gamer com RGB",
+    "valor": 700.00,
+    "promocao": false,
+    "valorPromo": 0,
+    "imagem": "mousegamer.jpg"
+ },
+ {
+    "id":18,
+    "nome": "PS4 PRO",
+    "valor": 3000.00,
+    "promocao": false,
+    "valorPromo": 0,
+    "imagem": "ps4.jpg"
+ }
 ],
   "posts": [
     { "id": 1, "title": "json-server", "author": "typicode" }
