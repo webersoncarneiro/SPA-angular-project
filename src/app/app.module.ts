@@ -20,6 +20,7 @@ import { OutletComponenteComponent } from './outlet-componente/outlet-componente
 //import { IvyCarouselModule } from 'angular-responsive-carousel';
 //import {NgxPaginationModule} from 'ngx-pagination';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { CountdownComponent } from './countdown/countdown.component';
 
 
 registerLocaleData(localePt);
@@ -33,7 +34,8 @@ registerLocaleData(localePt);
     SobreComponent,
     ContatoComponent,
     ListaProdutoComponent,
-    OutletComponenteComponent
+    OutletComponenteComponent,
+    CountdownComponent
   ],
   imports: [
     BrowserModule,
