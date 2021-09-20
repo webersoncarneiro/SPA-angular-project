@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import  jspdf from 'jspdf';
+import * as jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
+
 
 @Component({
   selector: 'app-outlet',
@@ -48,7 +52,16 @@ export class OutletComponenteComponent implements OnInit {
     this.paginaAtual = !this.paginaAtual;
   }
 
-}
+   downloadPdf() : void {
+      let data = document.getElementById('page');
+      html2canvas(data).then(canvas => {
+        const contentDataURL = canvas.toDataURL('image/png')
+        let pdf = new jspdf();
+        pdf.save('Filename.pdf');
+      })
+   }
+  }
+
 
 
 

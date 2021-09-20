@@ -1,5 +1,5 @@
 
-<div class="container">
+<div id="page" class="container">
     <h2 class="text-secondary text-center">{{ title }}!</h2>
     <hr /> 
     <div>
@@ -36,3 +36,8 @@
 		previousLabel="Anterior"
 		nextLabel="Próximo"></pagination-controls>
   </div>
+
+  <!-- botão para imprimir para pdf -->
+  <div class="icon_image" title="Share As PDF"
+  (click)="downloadPdf('page');">
+  <img src="assets/img/pdf.png">Download PDF</div>
